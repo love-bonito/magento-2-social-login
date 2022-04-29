@@ -5,8 +5,8 @@
     "mageplaza/module-core": "^1.4.5",
     "mageplaza/module-smtp": "^4.0.0",
     "mageplaza/module-google-recaptcha": "^4.0.0",
-    "mageplaza/module-two-factor-authentication": "^4.0.0",
-    "hybridauth/hybridauth": "^2.14.0"
+    "mageplaza/module-two-factor-authentication": "dev-v4-php-8.1",
+    "hybridauth/hybridauth": "dev-v2-php-8.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
@@ -49,5 +49,24 @@
     "psr-4": {
       "Mageplaza\\SocialLogin\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/tunght13488/hybridauth.git"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/tunght13488/php-graph-sdk.git"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/tunght13488/magento-2-two-factor-authentication.git"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/tunght13488/GoogleAuthenticator.git"
+    }
+  ],
+  "minimum-stability": "dev"
 }
