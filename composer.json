@@ -53,19 +53,19 @@
   "repositories": [
     {
       "type": "github",
-      "url": "https://github.com/tunght13488/hybridauth.git"
+      "url": "https://github.com/love-bonito/hybridauth.git"
     },
     {
       "type": "github",
-      "url": "https://github.com/tunght13488/php-graph-sdk.git"
+      "url": "https://github.com/love-bonito/php-graph-sdk.git"
     },
     {
       "type": "github",
-      "url": "https://github.com/tunght13488/magento-2-two-factor-authentication.git"
+      "url": "https://github.com/love-bonito/magento-2-two-factor-authentication.git"
     },
     {
       "type": "github",
-      "url": "https://github.com/tunght13488/GoogleAuthenticator.git"
+      "url": "https://github.com/love-bonito/GoogleAuthenticator.git"
     }
   ],
   "minimum-stability": "dev"
